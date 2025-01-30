@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #1e1e2f; /* Dark background */
+  color: #f1f1f1; /* Light text */
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  color: #fff;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #eaeaea;
+}
+
+form {
+  background: #29293d;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: #f1f1f1;
+}
+
+form input,
+form textarea {
+  width: 97.5%;
+  padding: 10px;
+  margin-bottom: 15px;
+  background: #3a3a4d;
+  color: #f1f1f1;
+  border: none;
+  border-radius: 4px;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: 2px solid #5d5dff;
+}
+
+form button {
+  background: #5d5dff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background: #4a4ae0;
+}
+
+.note-list {
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.note-list li {
+  list-style: none;
+  background: #29293d;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.note-list h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.note-list p {
+  margin: 5px 0 0 0;
+  font-size: 1rem;
+  color: #b0b0b0;
+}
+
+.note-list .btn-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.note-list button {
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.note-list button.edit {
+  background: #4caf50; /* Vibrant green for Edit */
+}
+
+.note-list button.edit:hover {
+  background: #3e8e41;
+}
+
+.note-list button.delete {
+  background: #e53935; /* Vibrant red for Delete */
+}
+
+.note-list button.delete:hover {
+  background: #d32f2f;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  background: #29293d;
+  color: #f1f1f1;
+  font-size: 0.9rem;
+}
