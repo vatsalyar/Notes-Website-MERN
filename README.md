@@ -17,8 +17,8 @@ The Notes App is a simple web application that allows users to manage their note
 ### How to Run:
 1. Clone the repository.
 2. Install dependencies:
-    For Backend: Node.js, Cors, Mongoose, Express
-    For Frontend: Axios, React
+    - For Backend: Node.js, Cors, Mongoose, Express
+    - For Frontend: Axios, React
 3. Start both Front and Back ends.
 
 ### Usage:
